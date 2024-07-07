@@ -67,6 +67,18 @@ html.reveal-full-page {
 
  }
 
+.svg-container{
+	height: 500px;
+	width: 500px;
+}
+
+.centered{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
  .logo-header{
 	height: 300px;
 	width: 300px;
