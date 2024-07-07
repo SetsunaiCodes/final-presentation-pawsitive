@@ -1,4 +1,5 @@
 @use "sass:math";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /**
  * reveal.js
@@ -13,6 +14,7 @@
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
+
 
 html.reveal-full-page {
 	width: 100%;
@@ -65,6 +67,11 @@ html.reveal-full-page {
 
  }
 
+ .logo-header{
+	height: 300px;
+	width: 300px;
+ }
+
  .vertical-divider{
 	height: 2px;
 	width: 100%;
@@ -105,6 +112,16 @@ html.reveal-full-page {
 	align-items: start;
 	flex-direction: column;
 	width: 50%;
+	font-size: var(--text-lg);
+	color: var(--main-text-color);
+	text-align: start;
+}
+.image-text-slide .bigger-text-section{
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+	width: 70%;
 	font-size: var(--text-lg);
 	color: var(--main-text-color);
 	text-align: start;
