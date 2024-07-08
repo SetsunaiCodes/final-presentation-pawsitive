@@ -67,6 +67,20 @@ html.reveal-full-page {
 
  }
 
+.flex{
+	display: flex;
+}
+.center{
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-icon{
+	height: 50px;
+	width: 50px;
+	padding:0 15px 25px 15px;
+}
+
 .svg-container{
 	height: 500px;
 	width: 500px;
